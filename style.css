@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: white;
+    list-style: none;
+    text-decoration: none;
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+}
+
+body {
+    box-sizing: border-box;
+    background-color: rgb(0, 0, 0);
+}
+
+
+
+.bg-image-wrapper {
+    height: 800px;
+    background-image: linear-gradient(249deg,rgba(0,0,0,.8) 0,transparent 60%,rgba(0,0,0,.8)), url(NG-en-20221114-popsignuptwoweeks-perspective_alpha_website_large.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.netflix-logo img {
+    width: 140px;
+}
+
+.sign-in {
+    background: red;
+    width: 90px;
+    height: 35px;
+    border-radius: 5px;
+    text-align: center;
+    margin-top: 25px;
+    margin-right: 15px;
+    padding-top: 5px;
+    font-weight: bold;
+}
+
+.section-1 {
+    width: 600x;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 100px;
+}
+.section-1 h1 {
+    width: 600px;
+    font-size: 60px;
+    margin: 0 auto;
+}
+
+.section-1 h2 {
+    font-weight: 400;
+    margin-top: 10px;
+}
+
+.section-1 h3 {
+    font-weight: 400;
+    margin-top: 20px;
+}
+
+.section-1
+ input, 
+ label {
+    margin-top: 20px;
+    width: 600px;
+    height: 70px;
+}
+
+.section-2 {
+    width: 1100px;
+    display: flex;
+    justify-content: center;
+}
+
+.tv-video {
+    width: 50px;
+    position: relative;
+}
+
+video {
+    position: absolute;
+    top: 78px;
+    left: 62px;
+}
+
+.section-2-h1-h2 {
+    width: 500px;
+    margin-top: 50px;
+    margin-left: 100px;
+}
+
+.section-2-h1 {
+    margin-top: 40px;
+    font-size: 50px;
+    margin-bottom: 15px;
+}
+
+.section-2-h2 {
+    width: 500px;
+}
+
+.section-3 {
+    width: 1100px;
+    display: flex;
+    justify-content: center;
+}
+
+.sub-section-3 {
+    width: 280px;
+    height: 65px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    display: flex;
+    border: 1px solid gray;
+    border-radius: 10px;
+    justify-content: center;
+    background: black;
+}
+
+.sub-section-3-div-1 {
+    padding-right: 10px;
+}
+
+.sub-section-3-div-3 {
+    padding-left: 10px;
+}
+
+.sub-section-3-main {
+    position: relative;
+}
+
+.sub-section-3 {
+    position: absolute;
+    top: 230px;
+    left: 83px;
+}
+
+.sec-3-div-h1-h2 {
+    width: 400px;
+}
